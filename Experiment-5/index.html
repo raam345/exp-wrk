@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+  <style>
+    input{display:block;margin:8px 0;padding:6px}
+    .err{color:red;font-size:12px}
+    .ok{border:2px solid green}
+    .bad{border:2px solid red}
+  </style>
+</head>
+<body>
+  <form id="f">
+    <input type="text" id="name" placeholder="Full Name" required>
+    <div id="e1" class="err"></div>
+    <input type="email" id="mail" placeholder="Email" required>
+    <div id="e2" class="err"></div>
+    <input type="password" id="pass" placeholder="Password" required>
+    <div id="e3" class="err"></div>
+    <input type="tel" id="ph" placeholder="Phone" required>
+    <div id="e4" class="err"></div>
+    <button type="submit">Register</button>
+  </form>
+  <p id="msg"></p>
+  <script src="script.js"></script>
+</body>
+</html>
