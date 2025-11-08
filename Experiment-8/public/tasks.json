@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Read a chapter", "completed": false },
+  { "id": 2, "title": "Write notes", "completed": true }
+]
+
+
